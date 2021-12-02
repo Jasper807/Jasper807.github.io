@@ -35,8 +35,8 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  fab fa-github: https://github.com/xxxxx || Github
-  fas fa-envelope: mailto:xxxxxx@gmail.com || Email
+  # fab fa-github: https://github.com/jasper807 || Github
+  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email
 
 # search (搜索)
 # --------------------------------------
@@ -558,7 +558,7 @@ display_mode: light
 
 # Beautify (美化頁面顯示)
 beautify:
-  enable: false
+  enable: true
   field: post # site/post
   title-prefix-icon: '\f0c1'
   title-prefix-icon-color: '#F47466'
@@ -619,7 +619,7 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow me
-      link: https://github.com/xxxxxx
+      link: https://github.com/jasper807
   card_announcement:
     enable: true
     content: Hi, welcome to JasperのBlog！
@@ -817,7 +817,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    # - <link rel="stylesheet" href="/self/prism-vs.css">
+    # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="xxxx"></script>
 
