@@ -16,7 +16,7 @@ menu:
 # Code Blocks (代碼相關)
 # --------------------------------------
 
-highlight_theme: ocean #  darker / pale night / light / ocean / mac / mac light / false
+highlight_theme: mac #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
@@ -170,7 +170,7 @@ index_post_content:
 toc:
   post: true
   page: false
-  number: false
+  number: true
   expand: true
   style_simple: false # for post
 
@@ -558,7 +558,7 @@ display_mode: light
 
 # Beautify (美化頁面顯示)
 beautify:
-  enable: true
+  enable: false
   field: post # site/post
   title-prefix-icon: '\f0c1'
   title-prefix-icon-color: '#F47466'
@@ -817,7 +817,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    # - <link rel="stylesheet" href="/xxx.css">
+    # - <link rel="stylesheet" href="/self/prism-vs.css">
   bottom:
     # - <script src="xxxx"></script>
 
