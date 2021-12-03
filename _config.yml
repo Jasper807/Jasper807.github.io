@@ -116,3 +116,6 @@ sitemap:
   path: sitmap.xml
 baidusitemap:
   path: baidusitemap.xml
+
+Plugins:
+- hexo-generator-cname
