@@ -119,3 +119,9 @@ baidusitemap:
 
 Plugins:
 - hexo-generator-cname
+
+baidu_url_submit:
+  count: 10
+  host: https://jasper807.top
+  token: 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
+  path: baidu_urls.txt
