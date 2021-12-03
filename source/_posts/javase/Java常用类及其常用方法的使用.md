@@ -1,16 +1,22 @@
 ---
-title: Hello World3
+title: Java常用类及其常用方法的使用
+tags:
+    - Java
+categories:
+    - JavaSE 
+date: 2021-12-02 22:15:52
+cover: https://cdn.jsdelivr.net/gh/jasper807/picgo/cover/javaclass.png
 ---
 
-# Java常用类及其常用方法的使用
+# Object类
 
-# 一.Object类
+## Object类的结构
 
-## 1.Object类的结构
+![](https://cdn.jsdelivr.net/gh/jasper807/picgo/javase/objclass.JPG)
 
-![](/Users/qiujiajie/Desktop/博客/JavaSE/图片/Object类的结构.JPG)
 
-## 2.clone()方法
+
+## clone()方法
 
 ### Java语言中创建对象的方式
 
@@ -83,7 +89,7 @@ javabase.javacommonclass.Person@5cad8086
 javabase.javacommonclass.Person@6e0be858
 ```
 
-![](/Users/qiujiajie/Desktop/博客/JavaSE/图片/引用和复制.png)
+![](https://cdn.jsdelivr.net/gh/jasper807/picgo/javase/referenceandcopy.png)
 
 ### 深拷贝 vs 浅拷贝
 
@@ -187,9 +193,9 @@ public class TestObject{
 clone是深拷贝的
 ```
 
-![](/Users/qiujiajie/Desktop/博客/JavaSE/图片/浅拷贝和深拷贝.png)
+![](https://cdn.jsdelivr.net/gh/jasper807/picgo/javase/dascopy.png)
 
-## 3.toString()方法
+## toString()方法
 
 - Object 类的 toString 方法返回一个字符串，该字符串由类名(对象是该类的一个实例)、at 标记符“@” 和此对象哈希码的无符号十六进制表示组成。
 
@@ -228,7 +234,7 @@ java.lang.Object@5cad8086
 Person{name='张三', age=18}
 ```
 
-## 4.getClass()方法
+## getClass()方法
 
 ```java
 public final native Class<?> getClass();
@@ -259,7 +265,7 @@ class javabase.javacommonclass.Person
 javabase.javacommonclass.Person
 ```
 
-## 5.finalize()方法
+## finalize()方法
 - 当对象被判定为垃圾对象时，由JVM自动调用此方法，用以标记垃圾对象，进入回收队列。
   - 垃圾对象：没有有效引用指向此对象时，为垃圾对象。
   - 垃圾回收：由GC销毁垃圾对象，释放数据存储空间。
@@ -284,7 +290,7 @@ public class TestObject{
 张三对象被回收了
 ```
 
-## 6.equals()方法
+## equals()方法
 
 ```java
 public boolean equals(Object obj) {
@@ -306,7 +312,7 @@ public static void main(String[] args) throws CloneNotSupportedException {
 false
 ```
 
-## 7.hashCode()方法
+## hashCode()方法
 
 - 一般必须满足obj1.equals(obj2)==true。可以推出obj1.hash Code() == obj2.hashCode()，但是hashCode相等不一定就满足equals。不过为了提高效率，应该尽量使上面两个条件接近等价。
 
@@ -325,7 +331,7 @@ person2=1846274136
 person3=1554874502
 ```
 
-## 8.wait()、notify()、notifyAll()方法
+## wait()、notify()、notifyAll()方法
 
 ```java
 /**
@@ -507,11 +513,11 @@ thread2等待结束
 thread1等待结束
 ```
 
-# 二.包装类
+# 包装类
 
-![](/Users/qiujiajie/Desktop/博客/JavaSE/图片/包装类.png)
+![](https://cdn.jsdelivr.net/gh/jasper807/picgo/javase/package.jpg)
 
-## 1.(自动)装箱和(自动)拆箱
+## (自动)装箱和(自动)拆箱
 
 - 由基本类型向对应的包装类转换称为装箱，例如把 int 包装成 Integer 类的对象。
 
@@ -554,7 +560,7 @@ integer4=100
 num4=100
 ```
 
-## 2.基本数据类型和字符串之间的转换
+## 基本数据类型和字符串之间的转换
 
 ```java
 public class PackingClass {
@@ -606,7 +612,7 @@ b1=true
 b2=false
 ```
 
-## 3.整数缓存区
+## 整数缓存区
 
 ```java
 public class IntegerTest {
@@ -638,7 +644,7 @@ true
 false
 ```
 
-# 三.Math类
+# Math类
 
 - Java 的 Math 包含了用于执行基本数学运算的属性和方法。 Math 的方法都被定义为 static 形式，通过 Math 类可以在主函数中直接调用。
 
@@ -715,9 +721,9 @@ public class MathTest {
 }
 ```
 
-# 四.Random类
+# Random类
 
-### 1.java.lang.Math.Random
+### java.lang.Math.Random
 
 - 调用这个Math.Random()函数能够返回带正号的double值，该值大于等于0.0且小于1.0，即取值范围是 [0.0,1.0)的左闭右开区间，返回值是一个伪随机选择的数，在该范围内(近似)均匀分布。
 
@@ -734,7 +740,7 @@ Math.random()=0.44938147153848396
 num=1
 ```
 
-### 2.java.util.Random
+### java.util.Random
 
 ```java
 public class RandomTest {
@@ -777,16 +783,16 @@ byte[3]=-17
 byte[4]=-47
 ```
 
-# 五.String类
+# String类
 
-## 1.创建字符串对象的方式
+## 创建字符串对象的方式
 
 ```java
 String str1="hello";//直接赋值的方式
 String str2=new String("hello");//实例化的方式
 ```
 
-## 2.字符串创建与内存场景分析(JDK 1.8)
+## 字符串创建与内存场景分析(JDK 1.8)
 
 ```java
 //注意：==在对字符串比较的时候，对比的是内存地址，而equals比较的是字符串内容，
@@ -814,9 +820,9 @@ name5==name3｜false
 name5==name4｜false
 ```
 
-![](/Users/qiujiajie/Desktop/博客/JavaSE/图片/String字符串常量池内存分析.png)
+![](https://cdn.jsdelivr.net/gh/jasper807/picgo/javase/stringmemory.png)
 
-## 3.String常用方法
+## String常用方法
 
 ### String的判断方法
 
@@ -1034,9 +1040,9 @@ true
 true
 ```
 
-# 六.String、StringBuilder和StringBuffer
+# String、StringBuilder和StringBuffer
 
-## 1.StringBuilder常用方法(StringBuffer类似)
+## StringBuilder常用方法(StringBuffer类似)
 
 ### insert方法
 
@@ -1224,7 +1230,7 @@ public static void others(){
 }
 ```
 
-##  2.StringBuilder与StringBuffer的区别，StringBuilder与String的区别
+##  StringBuilder与StringBuffer的区别，StringBuilder与String的区别
 
 - StringBuilder效率高，线程不安全，StringBuffer效率低，线程安全。
 
@@ -1232,9 +1238,9 @@ public static void others(){
 
 - 如果是简单的声明一个字符串没有后续过多的操作，使用String,StringBuilder均可，若后续对字符串做频繁的添加，删除操作,或者是在循环当中动态的改变字符串的长度应该用StringBuilder。使用String会产生多余的字符串，占用内存空间。
 
-# 七.日期时间类
+# 日期时间类
 
-## 1.Date类
+## Date类
 
 ```java
 public static void dateTest(){
@@ -1278,7 +1284,7 @@ true
 0
 ```
 
-## 2.SimpleDateFormat类
+## SimpleDateFormat类
 
 - SimpleDateFormat 是一个以语言环境敏感的方式来格式化和分析日期的类。
 - SimpleDateFormat 允许你选择任何用户自定义日期时间格式来运行。
@@ -1295,7 +1301,7 @@ public static void sdfTest(){
 当前时间为: 2021-11-27 03:30:01
 ```
 
-## 3.Calendar类
+## Calendar类
 
 ```java
 public static void calTest(){
@@ -1339,7 +1345,7 @@ public static void calTest(){
 2008-11-10 11:11:11
 ```
 
-# 八.Bigdecimal类
+# Bigdecimal类
 
 - 不论是float 还是double都是浮点数，而计算机是二进制的，浮点数会失去一定的精确度。十进制值通常没有完全相同的二进制表示形式，十进制数的二进制表示形式可能不精确。只能无限接近于那个值。
 
@@ -1368,7 +1374,7 @@ public static void main(String[] args) {
 0.5
 ```
 
-# 九.System类
+# System类
 
 ```java
 static void arraycopy(Object src,int srcPos,Object dest,int destPos,int length):复制数组
@@ -1405,9 +1411,9 @@ public static void main(String[] args) {
 用时:15
 ```
 
-# 十.File类
+# File类
 
-## 1.File的构造方法
+## File的构造方法
 
 ```java
 public static void main(String[] args) {
@@ -1451,7 +1457,7 @@ photo2.jpeg
 /Users/test/photo1.jpeg
 ```
 
-## 2.File的获取方法
+## File的获取方法
 
 ```java
 public String getAbsolutePath():返回此File的绝对路径名字符串
@@ -1498,7 +1504,7 @@ test
 0
 ```
 
-## 3.File的判断方法
+## File的判断方法
 
 ```java
 public boolean exists():此File表示的文件或目录是否存在
@@ -1506,7 +1512,7 @@ public boolean isDirectory():此File表示的是否为目录
 public boolean isFile():此File表示的是否为文件
 ```
 
-## 4.File的创建删除方法
+## File的创建删除方法
 
 ```java
 public boolean createNewFile():当且仅当具有该名称的文件尚不存在时，创建一个新的空文件
@@ -1569,7 +1575,7 @@ false
 true
 ```
 
-## 5.File的遍历方法
+## File的遍历方法
 
 ```java
 public String[] list():返回一个String数组，表示该File目录中所有字文件或目录
