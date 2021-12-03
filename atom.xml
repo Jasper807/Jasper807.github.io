@@ -3,11 +3,11 @@
   <title>JasperのBlog</title>
   
   
-  <link href="https://jasper807.top/atom.xml" rel="self"/>
+  <link href="https://www.jasper807.top/atom.xml" rel="self"/>
   
-  <link href="https://jasper807.top/"/>
+  <link href="https://www.jasper807.top/"/>
   <updated>2021-12-03T16:37:28.766Z</updated>
-  <id>https://jasper807.top/</id>
+  <id>https://www.jasper807.top/</id>
   
   <author>
     <name>Jasper</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Java知识梳理03|内部类详解</title>
-    <link href="https://jasper807.top/articles/b2084f96.xml"/>
-    <id>https://jasper807.top/articles/b2084f96.xml</id>
+    <link href="https://www.jasper807.top/articles/b2084f96.xml"/>
+    <id>https://www.jasper807.top/articles/b2084f96.xml</id>
     <published>2021-12-03T07:45:44.000Z</published>
     <updated>2021-12-03T16:37:28.766Z</updated>
     
@@ -36,17 +36,17 @@
     
     
     
-    <category term="Java Difficult Analysis" scheme="https://jasper807.top/categories/Java-Difficult-Analysis/"/>
+    <category term="Java Difficult Analysis" scheme="https://www.jasper807.top/categories/Java-Difficult-Analysis/"/>
     
     
-    <category term="Java" scheme="https://jasper807.top/tags/Java/"/>
+    <category term="Java" scheme="https://www.jasper807.top/tags/Java/"/>
     
   </entry>
   
   <entry>
     <title>Java知识梳理02|关键字及部分重点作用详解</title>
-    <link href="https://jasper807.top/articles/108617ef.xml"/>
-    <id>https://jasper807.top/articles/108617ef.xml</id>
+    <link href="https://www.jasper807.top/articles/108617ef.xml"/>
+    <id>https://www.jasper807.top/articles/108617ef.xml</id>
     <published>2021-12-03T07:43:12.000Z</published>
     <updated>2021-12-03T16:37:28.768Z</updated>
     
@@ -61,17 +61,17 @@
     
     
     
-    <category term="Java Difficult Analysis" scheme="https://jasper807.top/categories/Java-Difficult-Analysis/"/>
+    <category term="Java Difficult Analysis" scheme="https://www.jasper807.top/categories/Java-Difficult-Analysis/"/>
     
     
-    <category term="Java" scheme="https://jasper807.top/tags/Java/"/>
+    <category term="Java" scheme="https://www.jasper807.top/tags/Java/"/>
     
   </entry>
   
   <entry>
     <title>Java知识梳理01｜类和对象</title>
-    <link href="https://jasper807.top/articles/92ce4ef6.xml"/>
-    <id>https://jasper807.top/articles/92ce4ef6.xml</id>
+    <link href="https://www.jasper807.top/articles/92ce4ef6.xml"/>
+    <id>https://www.jasper807.top/articles/92ce4ef6.xml</id>
     <published>2021-12-03T07:39:02.000Z</published>
     <updated>2021-12-03T16:42:56.382Z</updated>
     
@@ -85,17 +85,17 @@
     
     
     
-    <category term="Java Difficult Analysis" scheme="https://jasper807.top/categories/Java-Difficult-Analysis/"/>
+    <category term="Java Difficult Analysis" scheme="https://www.jasper807.top/categories/Java-Difficult-Analysis/"/>
     
     
-    <category term="Java" scheme="https://jasper807.top/tags/Java/"/>
+    <category term="Java" scheme="https://www.jasper807.top/tags/Java/"/>
     
   </entry>
   
   <entry>
     <title>Java常用类及其常用方法的使用</title>
-    <link href="https://jasper807.top/articles/db963a9e.xml"/>
-    <id>https://jasper807.top/articles/db963a9e.xml</id>
+    <link href="https://www.jasper807.top/articles/db963a9e.xml"/>
+    <id>https://www.jasper807.top/articles/db963a9e.xml</id>
     <published>2021-12-02T14:15:52.000Z</published>
     <updated>2021-12-03T16:37:28.772Z</updated>
     
@@ -109,17 +109,17 @@
     
     
     
-    <category term="JavaSE" scheme="https://jasper807.top/categories/JavaSE/"/>
+    <category term="JavaSE" scheme="https://www.jasper807.top/categories/JavaSE/"/>
     
     
-    <category term="Java" scheme="https://jasper807.top/tags/Java/"/>
+    <category term="Java" scheme="https://www.jasper807.top/tags/Java/"/>
     
   </entry>
   
   <entry>
     <title>Java异常｜异常体系结构和处理机制</title>
-    <link href="https://jasper807.top/articles/1b73a25a.xml"/>
-    <id>https://jasper807.top/articles/1b73a25a.xml</id>
+    <link href="https://www.jasper807.top/articles/1b73a25a.xml"/>
+    <id>https://www.jasper807.top/articles/1b73a25a.xml</id>
     <published>2021-12-02T14:14:11.000Z</published>
     <updated>2021-12-03T16:37:28.773Z</updated>
     
@@ -136,17 +136,17 @@
     
     
     
-    <category term="JavaSE" scheme="https://jasper807.top/categories/JavaSE/"/>
+    <category term="JavaSE" scheme="https://www.jasper807.top/categories/JavaSE/"/>
     
     
-    <category term="Java" scheme="https://jasper807.top/tags/Java/"/>
+    <category term="Java" scheme="https://www.jasper807.top/tags/Java/"/>
     
   </entry>
   
   <entry>
     <title>Java面向对象｜封装、继承和多态</title>
-    <link href="https://jasper807.top/articles/dff13482.xml"/>
-    <id>https://jasper807.top/articles/dff13482.xml</id>
+    <link href="https://www.jasper807.top/articles/dff13482.xml"/>
+    <id>https://www.jasper807.top/articles/dff13482.xml</id>
     <published>2021-12-02T14:10:27.000Z</published>
     <updated>2021-12-03T16:37:28.775Z</updated>
     
@@ -161,17 +161,17 @@
     
     
     
-    <category term="JavaSE" scheme="https://jasper807.top/categories/JavaSE/"/>
+    <category term="JavaSE" scheme="https://www.jasper807.top/categories/JavaSE/"/>
     
     
-    <category term="Java" scheme="https://jasper807.top/tags/Java/"/>
+    <category term="Java" scheme="https://www.jasper807.top/tags/Java/"/>
     
   </entry>
   
   <entry>
     <title>Java数组｜数组的声明创建和使用</title>
-    <link href="https://jasper807.top/articles/e8f64a1a.xml"/>
-    <id>https://jasper807.top/articles/e8f64a1a.xml</id>
+    <link href="https://www.jasper807.top/articles/e8f64a1a.xml"/>
+    <id>https://www.jasper807.top/articles/e8f64a1a.xml</id>
     <published>2021-12-02T14:05:24.000Z</published>
     <updated>2021-12-03T16:37:28.774Z</updated>
     
@@ -187,17 +187,17 @@
     
     
     
-    <category term="JavaSE" scheme="https://jasper807.top/categories/JavaSE/"/>
+    <category term="JavaSE" scheme="https://www.jasper807.top/categories/JavaSE/"/>
     
     
-    <category term="Java" scheme="https://jasper807.top/tags/Java/"/>
+    <category term="Java" scheme="https://www.jasper807.top/tags/Java/"/>
     
   </entry>
   
   <entry>
     <title>Java方法｜方法的定义、调用和重载</title>
-    <link href="https://jasper807.top/articles/1c5891d8.xml"/>
-    <id>https://jasper807.top/articles/1c5891d8.xml</id>
+    <link href="https://www.jasper807.top/articles/1c5891d8.xml"/>
+    <id>https://www.jasper807.top/articles/1c5891d8.xml</id>
     <published>2021-12-02T14:01:43.000Z</published>
     <updated>2021-12-03T16:37:28.774Z</updated>
     
@@ -211,17 +211,17 @@
     
     
     
-    <category term="JavaSE" scheme="https://jasper807.top/categories/JavaSE/"/>
+    <category term="JavaSE" scheme="https://www.jasper807.top/categories/JavaSE/"/>
     
     
-    <category term="Java" scheme="https://jasper807.top/tags/Java/"/>
+    <category term="Java" scheme="https://www.jasper807.top/tags/Java/"/>
     
   </entry>
   
   <entry>
     <title>Java流程控制｜顺序、选择和循环结构</title>
-    <link href="https://jasper807.top/articles/5ccabb79.xml"/>
-    <id>https://jasper807.top/articles/5ccabb79.xml</id>
+    <link href="https://www.jasper807.top/articles/5ccabb79.xml"/>
+    <id>https://www.jasper807.top/articles/5ccabb79.xml</id>
     <published>2021-12-02T14:00:13.000Z</published>
     <updated>2021-12-03T16:37:28.775Z</updated>
     
@@ -237,17 +237,17 @@
     
     
     
-    <category term="JavaSE" scheme="https://jasper807.top/categories/JavaSE/"/>
+    <category term="JavaSE" scheme="https://www.jasper807.top/categories/JavaSE/"/>
     
     
-    <category term="Java" scheme="https://jasper807.top/tags/Java/"/>
+    <category term="Java" scheme="https://www.jasper807.top/tags/Java/"/>
     
   </entry>
   
   <entry>
     <title>Java基础语法04｜包机制和用户交互Scanner</title>
-    <link href="https://jasper807.top/articles/2289f534.xml"/>
-    <id>https://jasper807.top/articles/2289f534.xml</id>
+    <link href="https://www.jasper807.top/articles/2289f534.xml"/>
+    <id>https://www.jasper807.top/articles/2289f534.xml</id>
     <published>2021-12-02T13:42:22.000Z</published>
     <updated>2021-12-03T16:37:28.771Z</updated>
     
@@ -261,17 +261,17 @@
     
     
     
-    <category term="JavaSE" scheme="https://jasper807.top/categories/JavaSE/"/>
+    <category term="JavaSE" scheme="https://www.jasper807.top/categories/JavaSE/"/>
     
     
-    <category term="Java" scheme="https://jasper807.top/tags/Java/"/>
+    <category term="Java" scheme="https://www.jasper807.top/tags/Java/"/>
     
   </entry>
   
   <entry>
     <title>Java基础语法03｜变量和常量</title>
-    <link href="https://jasper807.top/articles/3af186df.xml"/>
-    <id>https://jasper807.top/articles/3af186df.xml</id>
+    <link href="https://www.jasper807.top/articles/3af186df.xml"/>
+    <id>https://www.jasper807.top/articles/3af186df.xml</id>
     <published>2021-12-02T13:40:15.000Z</published>
     <updated>2021-12-03T16:37:28.774Z</updated>
     
@@ -285,17 +285,17 @@
     
     
     
-    <category term="JavaSE" scheme="https://jasper807.top/categories/JavaSE/"/>
+    <category term="JavaSE" scheme="https://www.jasper807.top/categories/JavaSE/"/>
     
     
-    <category term="Java" scheme="https://jasper807.top/tags/Java/"/>
+    <category term="Java" scheme="https://www.jasper807.top/tags/Java/"/>
     
   </entry>
   
   <entry>
     <title>Java基础语法02｜数据类型</title>
-    <link href="https://jasper807.top/articles/8275623e.xml"/>
-    <id>https://jasper807.top/articles/8275623e.xml</id>
+    <link href="https://www.jasper807.top/articles/8275623e.xml"/>
+    <id>https://www.jasper807.top/articles/8275623e.xml</id>
     <published>2021-12-02T13:35:11.000Z</published>
     <updated>2021-12-03T16:37:28.770Z</updated>
     
@@ -309,17 +309,17 @@
     
     
     
-    <category term="JavaSE" scheme="https://jasper807.top/categories/JavaSE/"/>
+    <category term="JavaSE" scheme="https://www.jasper807.top/categories/JavaSE/"/>
     
     
-    <category term="Java" scheme="https://jasper807.top/tags/Java/"/>
+    <category term="Java" scheme="https://www.jasper807.top/tags/Java/"/>
     
   </entry>
   
   <entry>
     <title>Java基础语法01｜注释、标识符和关键字</title>
-    <link href="https://jasper807.top/articles/772b1d9.xml"/>
-    <id>https://jasper807.top/articles/772b1d9.xml</id>
+    <link href="https://www.jasper807.top/articles/772b1d9.xml"/>
+    <id>https://www.jasper807.top/articles/772b1d9.xml</id>
     <published>2021-12-02T13:14:41.000Z</published>
     <updated>2021-12-03T16:37:28.769Z</updated>
     
@@ -336,17 +336,17 @@
     
     
     
-    <category term="JavaSE" scheme="https://jasper807.top/categories/JavaSE/"/>
+    <category term="JavaSE" scheme="https://www.jasper807.top/categories/JavaSE/"/>
     
     
-    <category term="Java" scheme="https://jasper807.top/tags/Java/"/>
+    <category term="Java" scheme="https://www.jasper807.top/tags/Java/"/>
     
   </entry>
   
   <entry>
     <title>Java初步认识</title>
-    <link href="https://jasper807.top/articles/3571064f.xml"/>
-    <id>https://jasper807.top/articles/3571064f.xml</id>
+    <link href="https://www.jasper807.top/articles/3571064f.xml"/>
+    <id>https://www.jasper807.top/articles/3571064f.xml</id>
     <published>2021-12-02T12:43:02.000Z</published>
     <updated>2021-12-03T16:37:28.773Z</updated>
     
@@ -360,10 +360,10 @@
     
     
     
-    <category term="JavaSE" scheme="https://jasper807.top/categories/JavaSE/"/>
+    <category term="JavaSE" scheme="https://www.jasper807.top/categories/JavaSE/"/>
     
     
-    <category term="Java" scheme="https://jasper807.top/tags/Java/"/>
+    <category term="Java" scheme="https://www.jasper807.top/tags/Java/"/>
     
   </entry>
   
